@@ -1,0 +1,16 @@
+make a file named app.py in a project folder
+
+run "pip install Flask flask-sqlalchemy" in the terminal to install the library
+
+this is the file path for the file that are in the project
+
+project_directory/
+├── app.py
+├── templates/
+│   ├── index.html
+│   └── student_details.html
+├── static/
+│   └── styles.css
+
+to run this file 
+go to terminal : python app.py 

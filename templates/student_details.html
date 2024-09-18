@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Student Details</h1>
+    <ul>
+        <li>Name: {{ student.name }}</li>
+        <li>Class: {{ student.class_ }}</li>
+        <li>Section: {{ student.section }}</li>
+        <li>Roll No: {{ student.roll_no }}</li>
+    </ul>
+</body>
+</html>
